@@ -1,0 +1,18 @@
+<!--
+ - Created by Aliaksandr Vabishchevich 28.10.24.
+ -->
+
+<!-- Shipment Status Checker -->
+<template>
+    <template lwc:if={isLoaded}>
+        <lightning-card title="Shipment Status">
+            <lightning-spinner variant="brand" class="fixed-position" if:true={showSpinner}></lightning-spinner>
+            <div class="slds-m-around_medium">
+                <div class="status-card">
+                    <p class="status-label">{label.Current_Status}:</p>
+                   <lightning-badge label={shipmentStatus} class="status-value"></lightning-badge>
+                </div>
+            </div>
+        </lightning-card>
+    </template>
+</template>
