@@ -1,7 +1,7 @@
 <h1>Hello!</h1>
 <p>The current READMe file describes the test task to get Shipment Status through REST API and public endpoint based on the tracking number from the Standard Shipment page in Salesforce.</p>
 <p><b>How it works:</b></p>
-User opens the Shipment Record Detail page then the Shipment Status will be automatically received if the tracking number field is not blank. If it's blank then user will see an error toast message - Status is not defined. The tracking number is blank or is not valid. Please contact your administrator.
+User opens the Shipment Record Detail page then the Shipment Status will be automatically received if the tracking number field is not blank. If it's blank then user will see an error toast message - <b><i>Status is not defined. The tracking number is blank or is not valid. Please contact your administrator.</i></b>
 
 Metadata:
 <ol type="1">
