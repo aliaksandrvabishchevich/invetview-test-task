@@ -1,7 +1,13 @@
-<h1>Hello!</h1>
 <p>The current READMe file describes the test task to get Shipment Status through REST API and public endpoint based on the tracking number from the Standard Shipment page in Salesforce.</p>
+<p><b>How to add component</b></p>
+<p>Open Edit Lightning Record Page and find Shipment Status Checker component and drag on the page layout</p>
+<img width="1398" alt="image" src="https://github.com/user-attachments/assets/32bdd5ee-b0d5-4a6e-9a91-25803df03a5d">
+
 <p><b>How it works:</b></p>
 User opens the Shipment Record Detail page then the Shipment Status will be automatically received if the tracking number field is not blank. If it's blank then user will see an error toast message - <b><i>Status is not defined. The tracking number is blank or is not valid. Please contact your administrator.</i></b>
+
+<img width="1713" alt="image" src="https://github.com/user-attachments/assets/7a2c4bcd-0de5-475b-a3d3-55de2d07c8eb">
+
 
 Metadata:
 <ol type="1">
