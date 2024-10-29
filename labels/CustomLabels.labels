@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Current_Status</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Current Status</shortDescription>
+        <value>Current Status</value>
+    </labels>
+    <labels>
+        <fullName>Shipment_Status_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Shipment Status Error Message</shortDescription>
+        <value>Something went wrong with getting the Shipment Status. Please contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Status_Is_Not_Defined_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Status Is Not Defined Error Message</shortDescription>
+        <value>Status is not defined. The tracking number is blank or is not valid. Please contact your administrator.</value>
+    </labels>
+</CustomLabels>
